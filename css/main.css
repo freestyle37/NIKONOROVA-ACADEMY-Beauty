@@ -1,0 +1,96 @@
+/*---------------------------common-styles----------------------------------------*/
+section ul, {
+	padding: 0;
+	margin: 0;
+}
+section li {
+	list-style-type: none;
+}
+/*-------------------------girl-blond-section----------------------------*/
+.girl-blond-section {
+	background: #f3f3f3;
+	overflow: hidden;
+}
+.girl-blond-section .row div:last-child {
+	position: relative;
+	background: url("../images/girl-blond-background.jpg") top right / contain no-repeat;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+  	background-color: rgb(243, 243, 243);
+  	padding-left: 0px;
+  	max-height: 500px;
+}
+.girl-blond-section .row div:last-child::before {
+	content: '';
+	position: absolute;
+	background: #ffffff;
+	width: 117px;
+	height: 100vh;
+	margin-left: 15px;
+}
+.girl-blond-section .microblasting-list {
+	z-index: 5;
+}
+.girl-blond-section .row div:first-child {
+	background: url("../images/text-beauty.png") left center / contain no-repeat;
+	height: 85vh;
+}
+.girl-blond-section .microblasting-list a {
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	font-family: 'Oswald';
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 53.326px;
+	transition: color 0.2s;
+}
+.girl-blond-section .microblasting-list a:hover {
+	color: #18acaa;
+}
+/*--------------------------microblasting-----------------------------*/
+.eyelashes-microblasting h2, .lips-microblasting h2, .different-microblasting h2 {
+	font-family: BebasNeue;
+	font-weight: 400; 
+	color:  #0abab7;
+	font-size: 37.5px;
+	font-weight: 400;
+	line-height: 53.326px;
+}
+.eyelashes-microblasting .em__durability p, .lips-microblasting .lm__durability p, .different-microblasting .dm__durability p {
+	font-family: Oswald;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 53.326px;
+	text-transform: uppercase;
+}
+.eyelashes-microblasting .em__durability p i, .lips-microblasting .lm__durability p i, .different-microblasting .dm__durability p i {
+	margin-right: 10px;
+}
+.eyelashes-microblasting .em__durability span, .lips-microblasting .lm__durability span, .different-microblasting .dm__durability span {
+	font-family: BebasNeue;
+	color:  #030303;
+	font-size: 20.04px;
+	font-weight: 400;
+	text-align: left;
+	background-color:  #dedede;
+	padding: 7px 48px;
+}
+.eyelashes-microblasting .em__text p, .lips-microblasting .lm__text p, .different-microblasting .dm__text p {
+	font-family: Oswald;
+	color:  #000000;
+	font-size: 16.67px;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: justify;
+}
+.eyelashes-microblasting .em__text p:first-of-type {
+	padding-top: 30px;
+}
+.eyelashes-microblasting .em__text p:last-of-type {
+	padding-top: 20px;
+}
+/*---------------------------------------------------------*/
+.lips-microblasting {
+	padding-top: 75px;
+}

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: local('HelveticaNeueCyr'), local('HelveticaNeue-Cyr'), url('HelveticaNeueCyr.otf') format('opentype'), url('HelveticaNeueCyr.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
